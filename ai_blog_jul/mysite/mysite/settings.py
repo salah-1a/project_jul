@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "blog_jul"
+    "blog_jul",
 ]
 
 MIDDLEWARE = [
@@ -136,14 +136,14 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 
-LOGIN_URL = 'login'
+# LOGIN_URL = 'login'
 
-AWS_ACCESS_KEY_ID = 'AKIAQE43JWATCMMAEBWN'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'web-portfoliobucket'
-AWS_S3_SIGNATURE_NAME = 's3v4',
-AWS_S3_REGION_NAME = 'eu-central-1'
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-AWS_S3_VERITY = True
-DEFAULT_FILE_STORAGE = 'storages. backends.s3boto3.S3Boto3Storage'
+# AWS_ACCESS_KEY_ID = ''
+# AWS_SECRET_ACCESS_KEY = ''
+# AWS_STORAGE_BUCKET_NAME = ''
+# AWS_S3_SIGNATURE_NAME = '',
+# AWS_S3_REGION_NAME = ''
+# AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT_ACL = None
+# AWS_S3_VERITY = True
+# DEFAULT_FILE_STORAGE = 'storages. backends.s3boto3.S3Boto3Storage'
